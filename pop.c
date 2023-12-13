@@ -4,10 +4,10 @@
 #include <string.h>
 #include "monty.h"
 /**
-* pop - pops the best news
+* pop - is at thetop
 * @stack: stack given by main
 * @line_cnt: line number for error messages
-* Return: non existanes
+* Return: gone
 */
 void pop(stack_t **stack, unsigned int line_cnt)
 {

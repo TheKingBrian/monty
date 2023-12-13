@@ -3,8 +3,8 @@
 #include <string.h>
 #include "monty.h"
 /**
- * error_usage - shows mesages
- * Return: doest show anything
+ * error_usage - shows message and exits
+ * Return: none
  */
 void error_usage(void)
 {
@@ -12,9 +12,9 @@ fprintf(stderr, "USAGE: monty file\n");
 exit(EXIT_FAILURE);
 }
 /**
- * file_error - display all errors
+ * file_error - shows all error message
  * @argv: argv given by manin
- * Return: non existed
+ * Return: noneg
  */
 void file_error(char *argv)
 {
@@ -23,10 +23,10 @@ exit(EXIT_FAILURE);
 }
 int status = 0;
 /**
- * main - where input is in
+ * main - entry point
  * @argv: list of arguments passed to our program
  * @argc: ammount of args
- * Return: null
+ * Return: none
  */
 int main(int argc, char **argv)
 {

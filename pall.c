@@ -1,9 +1,9 @@
 #include "monty.h"
 /**
- * pall - printsall the stacks
+ * pall - prints all the list
  * @stack: stack given by main
  * @line_cnt: ammount of lines
- * Return: disappered
+ * Return: void
  */
 void pall(stack_t **stack, unsigned int line_cnt __attribute__((unused)))
 {

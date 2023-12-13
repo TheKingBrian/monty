@@ -1,10 +1,10 @@
 #include "monty.h"
 /**
- * rotr- changes the nodes
- * @stack: stach head
- * @line_count: line count
- * Return: none
- */
+* rotr - chanes the stack
+* @stack: stack head
+* @line_count: line count
+* Return: none
+*/
 void rotr(stack_t **stack, unsigned int line_count)
 {
 stack_t *bottom;

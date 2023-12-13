@@ -3,11 +3,11 @@
 #include <string.h>
 #include "monty.h"
 /**
- * opcode - runs all the functions
+ * opcode - function may run well
  * @stack: stack given by main
  * @str: string to compare
  * @line_cnt: ammount of lines
- * Return: non existance
+ * Return: none
  */
 void opcode(stack_t **stack, char *str, unsigned int line_cnt)
 {

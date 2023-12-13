@@ -4,10 +4,10 @@
 #include <string.h>
 #include "monty.h"
 /**
- * _add -  adds only new stakc of node
+ * _add -  adds all the print list
  * @stack: stack given by main
  * @line_cnt: line counter
- * Return: doesnt exist
+ * Return: gone
  */
 void _add(stack_t **stack, unsigned int line_cnt)
 {

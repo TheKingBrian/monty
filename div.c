@@ -4,10 +4,10 @@
 #include <string.h>
 #include "monty.h"
 /**
- * _div - divides the nodes from nodes
+ * _div - divides the bets values with the best values
  * @stack: stack given by main
  * @line_cnt: line counter
- * Return: none existed
+ * Return: gone
  */
 void _div(stack_t **stack, unsigned int line_cnt)
 {

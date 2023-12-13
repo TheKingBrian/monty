@@ -1,9 +1,9 @@
 #include "monty.h"
 /**
- * nop - it has no purpose
+ * nop - its useless
  * @stack: doesnt matter
  * @line_cnt : for nothing
- * Return: emoty
+ * Return: null
  */
 void nop(stack_t **stack, unsigned int line_cnt)
 {

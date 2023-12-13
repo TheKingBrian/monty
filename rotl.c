@@ -1,10 +1,10 @@
 #include "monty.h"
 /**
- * rotl - moves the elements
- * @stack: stack head
- * @line_count: line count
- * Return: non existent
- */
+* rotl - changes the elements
+* @stack: stack head
+* @line_count: line count
+* Return: none
+*/
 void rotl(stack_t **stack, unsigned int line_count)
 {
 stack_t *left;

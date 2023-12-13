@@ -3,10 +3,10 @@
 #include <string.h>
 #include "monty.h"
 /**
- * pint - shows the best data
+ * pint - shows best data
  * @stack: stack given by main
  * @line_cnt: ammount of lines
- * Return: non existances
+ * Return: gone
  */
 void pint(stack_t **stack, unsigned int line_cnt)
 {

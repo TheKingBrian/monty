@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include "monty.h"
 /**
- * pstr - prints the strings of all the pstr
+ * pstr - shows all the string values
  * @stack: stack given by main
  * @line_cnt: line counter for error messages
- * Return: null
+ * Return: noe
  */
 void pstr(stack_t **stack, unsigned int line_cnt __attribute__((unused)))
 {

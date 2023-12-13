@@ -4,10 +4,10 @@
 #include <string.h>
 #include "monty.h"
 /**
- * mod - divisions of mods
+ * mod - shows value
  * @stack: stack given by main
  * @line_cnt: line counter
- * Return: void
+ * Return: gone
  */
 void mod(stack_t **stack, unsigned int line_cnt)
 {

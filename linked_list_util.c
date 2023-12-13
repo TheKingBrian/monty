@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include "monty.h"
 /**
- * queue_node - aadds on the stack with node
+ * queue_node - doesnot allow node
  * @stack: stack head
  * @n: number of the node
- * Return: creates the nodes.
+ * Return: makes spacefor everything
  */
 stack_t *queue_node(stack_t **stack, const int n)
 {
@@ -38,10 +38,10 @@ current = current->next;
 return (new);
 }
 /**
- * add_node - adds a new node on the stack
+ * add_node - inputs all nodes
  * @stack: stack head
  * @n: number for the new node
- * Return: if functions doesnt work display null.
+ * Return: creates new nodes
  */
 stack_t *add_node(stack_t **stack, const int n)
 {
@@ -61,9 +61,9 @@ if (*stack)
 return (new);
 }
 /**
- * print_stack - prints all stack
+ * print_stack - prints all the stacks
  * @stack: stack head
- * Return: list of all the print
+ * Return: number of elements used
  */
 size_t print_stack(const stack_t *stack)
 {
@@ -73,13 +73,12 @@ while (stack)
 printf("%d\n", stack->n);
 stack = stack->next;
 c++;
-}
 return (c);
 }
 /**
- * free_stack - frees up the list
+ * free_stack - frees all list vales
  * @stack: list head
- * Return: void
+ * Return: gone
  */
 void free_stack(stack_t *stack)
 {

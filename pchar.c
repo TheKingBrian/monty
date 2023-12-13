@@ -4,10 +4,10 @@
 #include <string.h>
 #include "monty.h"
 /**
- * pchar - prints all the char
+ * pchar - shows all the char
  * @stack: stack given by main
  * @line_cnt: ammount of lines
- * Return: done with
+ * Return: gone
  */
 void pchar(stack_t **stack, unsigned int line_cnt)
 {
